@@ -37,4 +37,5 @@ async def predict(flower: Flower):
     f = [[flower.sepal_length, flower.sepal_width, flower.petal_length, flower.petal_width]]
     p = SVC.predict(f)
     flower.flower_type = p[0]
+    logging.info(f"[Predicted value]: {flower.flower_type}")
     return flower
