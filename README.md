@@ -29,3 +29,11 @@ Response example:
   "flower_type":"setosa"}
 ```
 See that the flower_type attribute was returned.
+
+
+Request and response examples using thunder client for VSCode
+![image](https://user-images.githubusercontent.com/158303/184049055-e722f02e-ca39-4340-8d7d-9f62c3d7b878.png)
+![image](https://user-images.githubusercontent.com/158303/184049083-0b3b7902-c643-4cca-bcbd-351e2c97e283.png)
+
+
+To see the docs go to: http://localhost:8008/docs
